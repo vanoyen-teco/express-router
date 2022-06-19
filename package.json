@@ -1,0 +1,26 @@
+{
+  "name": "entregable_4",
+  "version": "1.0.0",
+  "description": "Tema: Servidor Express Router.\r Link:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanoyen-teco/express-router.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanoyen-teco/express-router/issues"
+  },
+  "homepage": "https://github.com/vanoyen-teco/express-router#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Entregable Nº 4</title>
+  </head>
+  <body>
+    <div class="container-md mt-5 border rounded p-3 bg-light">
+        <div class="h4">Entregable Nº 4</div>
+        <div class="h5 mb-3 border-bottom pb-2">Alumno: Juan Manuel Rodriguez Van Oyen</div>
+        <div>
+            <p class="h5 mb-2">Acciones disponibles: </p>
+            <p class="h6">
+              GET Api productos: devuelve todos los productos (/api/productos)
+            </p>
+            <p class="h6">
+              GET Api productos ID: devuelve todos los productos por ID (/api/productos/:id)
+            </p>
+            <p class="h6">
+              POST Api productos: Recibe y agrega un producto, lo devuelve con su id asignado (/api/productos)
+            </p>
+            <p class="h6">
+              PUT Api productos ID: recibe y actualiza un producto segun su id (/api/productos/:id)
+            </p>
+            <p class="h6">
+              DELETE Api productos ID: elimina un producto segun su id (/api/productos/:id)
+            </p>
+        </div>
+        <div class="mt-4">
+          <form action="/api/productos" method="POST">
+            <div class="h5 mb-2">Prueba de ingreso de producto mediante post.</div>
+            <div class="mb-3">
+              <input type="text" class="form-control" name="titulo" placeholder="Titulo">
+            </div>
+            <div class="mb-3">
+              <input type="number" class="form-control" name="precio" placeholder="Precio">
+            </div>
+            <div class="mb-3">
+              <input type="url" class="form-control" name="thumbnail" placeholder="Thumbnail">
+            </div>
+            <button type="submit" class="btn btn-primary">ENVIAR</button>
+          </form>
+        </div>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
